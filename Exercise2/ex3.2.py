@@ -60,3 +60,11 @@ plt.xlabel('Search Task')
 plt.ylabel('Best Midpoint')
 plt.title('Best Midpoint for Each Search Task')
 plt.show()
+
+'''
+The scatter plot shows the best midpoint chosen for each of the ten search tasks on the   x-axis, and the search task itself on the y-axis. From the plot, we can see that the choice
+of initial midpoint does not appear to have a significant impact on the performance of the binary search algorithm.
+For most search tasks, the best midpoint is close to the middle of the input array, which is the default midpoint used in the standard binary search algorithm. However, for some search tasks, the best midpoint is closer to the beginning or end of the input array, which indicates that the algorithm was able to find a better initial midpoint through the random midpoint selection process.
+Overall, the scatter plot shows that the choice of initial midpoint does not have a large impact on the performance of the binary search algorithm, as long as the midpoint is reasonably close to the middle of the input array.
+
+'''
